@@ -7,13 +7,15 @@ $white: #ffffff;
 $strapi-gray-light: #EFF3F6;
 $strapi-gray: #535F76;
 
+$optiqly-teal: #00c1bc;
+$ingram-blue: #3d5396;
 $strapi-blue-darker: #18202E;
 $strapi-blue-dark: #151C2E;
-$strapi-blue: #0097f7;
+$strapi-blue: $ingram-blue;
 
 // - layout
 // -- left menu
-$left-menu-width: 24rem;
+$left-menu-width: 20rem;
 $left-menu-bg: $strapi-blue-darker;
 $left-menu-link-hover: #1C2431;
 $left-menu-link-color: #919BAE;

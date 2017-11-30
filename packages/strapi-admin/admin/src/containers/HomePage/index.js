@@ -25,19 +25,10 @@ export class HomePage extends React.Component { // eslint-disable-line react/pre
     return (
       <div className={styles.wrapper}>
         <Helmet
-          title="Home Page"
+          title="HQ"
         />
         <img src={Logo} alt="homepage_logo" />
         <h1><FormattedMessage {...messages.welcome} /></h1>
-        <p><FormattedMessage id="app.components.HomePage.description.part1" /></p>
-        <p><FormattedMessage id="app.components.HomePage.description.part2" /></p>
-        <div className={styles.buttonContainer}>
-          <Button className={styles.button} label="app.components.HomePage.button" onClick={() => this.props.history.push('/plugins/content-type-builder')} />
-        </div>
-        <p><FormattedMessage id="app.components.HomePage.feedback" /></p>
-        <div className={styles.linkContainer}>
-          {map(links, (value) => <a key={value} href={value} target="_blank" />)}
-        </div>
       </div>
     );
   }
